@@ -1,7 +1,20 @@
 
+/*---------------------------------------------------------------------------------------------------*/
+#header {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(152,148,233,1) 100%); 
+    font-family: 'Oswald', sans-serif;
+    padding: 2%;
+}
 
+#header .navbar-brand {
+    font-weight: bold;
+}
+/*-------------------------------------------------------------------------------------------------*/
 #footer {
-    background-color: aqua; 
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(152,148,233,1) 100%); 
+    font-family: 'Oswald', sans-serif;
     padding-left: 15%;
 }
 
