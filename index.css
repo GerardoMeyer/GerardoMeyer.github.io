@@ -1,19 +1,76 @@
+/*HR SECTIONS----------------------------------------------------------------------------------------------*/
+hr.sections {
+    overflow: visible;
+    /* For IE */
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr.sections:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
 
 /*---------------------------------------------------------------------------------------------------*/
 #header {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(152,148,233,1) 100%); 
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(152, 148, 233, 1) 100%);
     font-family: 'Oswald', sans-serif;
     padding: 2%;
 }
 
+#header .img {
+    width: 70px;
+}
+
 #header .navbar-brand {
     font-weight: bold;
+    font-size: 2rem;
 }
+
+/*-------------------------------------------------------------------------------------------------*/
+#productos {
+    padding: 3% 5% 5% 5%;
+}
+
+#productos .img_productos {
+    margin-left: 25%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    width: 50%;
+}
+
+#productos .frase_productos {
+    text-align: center;
+    padding-bottom: 7%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+#puntos .jumbotron-fluid {
+    background-color: white;
+    padding: 10%;
+}
+
+#puntos .jumbotron-fluid .container1 {
+    text-align: left;
+}
+
+#puntos .jumbotron-fluid .container2 {
+    text-align: right;
+}
+
 /*-------------------------------------------------------------------------------------------------*/
 #footer {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(152,148,233,1) 100%); 
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(152, 148, 233, 1) 100%);
     font-family: 'Oswald', sans-serif;
     padding-left: 15%;
 }
