@@ -1,0 +1,22 @@
+
+
+#footer {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,156,1) 100%);  
+    padding-left: 15%;
+}
+
+.columna-abajo {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.columna-abajo2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.columna-abajo3 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
